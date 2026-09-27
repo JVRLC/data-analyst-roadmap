@@ -1,9 +1,6 @@
+# Roadmap Data Analyst de 1ère année MPI (Mathématiques Physique et Informatique) au métier de la Data
 
-
-# Roadmap Data Analyst — De la prépa MPI au métier de la Data
-
-> Feuille de route personnelle et progressive pour un étudiant en classe préparatoire MPI souhaitant devenir Data Analyst, avec une trajectoire ouverte vers Data Scientist, Data Engineer ou BI Analyst.
-
+> Feuille de route personnelle et progressive pour un étudiant en MPI souhaitant devenir Data Analyst, avec une trajectoire ouverte vers Data Scientist, Data Engineer ou BI Analyst.
 
 ## Sommaire
 
@@ -61,14 +58,6 @@ La prépa ne couvre pas, ou très peu :
 - la culture du monde de l'entreprise et de la donnée (dashboard, reporting, KPI).
 
 Cette roadmap comble précisément cet écart.
-
-### Note de contexte : étudier en MPI au Sénégal
-
-Cette feuille de route est pensée pour un étudiant en MPI au Sénégal, et intègre à ce titre trois réalités locales :
-
-- Les CPGE scientifiques sénégalaises (notamment celles hébergées à l'École Polytechnique de Thiès, EPT) suivent le programme français et préparent aux mêmes concours que les CPGE de France (Mines-Ponts, Mines-Télécom, CCINP, etc.), en plus de donner accès aux écoles d'ingénieurs sénégalaises. Le parcours décrit dans ce document reste donc valable qu'on prépare ces concours depuis le Sénégal, depuis une CPGE en France via une bourse d'excellence, ou dans le cadre d'un double objectif Sénégal/France.
-- Le Sénégal dispose d'un écosystème data en plein développement (banques, télécoms, fintechs/scaleups à Dakar), avec des besoins réels en Data Analysts localement, en plus des opportunités à distance pour des entreprises étrangères.
-- Les ressources listées ci-dessous sont toutes gratuites ou proposent une alternative gratuite crédible (aide financière, contenu en libre accès), et privilégient des formats légers en bande passante (cours interactifs textuels, documentation) en complément des vidéos, pour tenir compte de contraintes de connexion possibles.
 
 ---
 
@@ -372,11 +361,11 @@ Chaque ressource ci-dessous est directement rattachée à une étape de la roadm
 
 **Vidéos**
 
-|Titre|Chaîne|Durée approx.|Niveau|Contenu|Lien|
-|---|---|---|---|---|---|
-|Learn Python – Full Course for Beginners|freeCodeCamp.org|~4h30|Débutant|Bases complètes du langage avec mini-projets|Voir l'article freeCodeCamp qui héberge le lien direct : https://www.freecodecamp.org/news/learn-python-free-python-courses-for-beginners/|
-|Python for Everybody (Programming for Everybody)|freeCodeCamp.org / Dr Chuck (Univ. of Michigan)|~13h40|Débutant à intermédiaire|Programmation, structures de données, bases de données avec Python|https://www.freecodecamp.org/news/python-for-everybody/|
-|Formation Python – Machine Learning (série)|MachineLearnia (Guillaume Saint-Cirgue)|Série de vidéos courtes (10–20 min chacune)|Débutant à intermédiaire|Python, NumPy, structures de données, en français|Chaîne à rechercher sur YouTube : « MachineLearnia »|
+| Titre                                            | Chaîne                                          | Durée approx.                               | Niveau                   | Contenu                                                            | Lien                                                                                                                                       |
+| ------------------------------------------------ | ----------------------------------------------- | ------------------------------------------- | ------------------------ | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Learn Python – Full Course for Beginners         | freeCodeCamp.org                                | ~4h30                                       | Débutant                 | Bases complètes du langage avec mini-projets                       | Voir l'article freeCodeCamp qui héberge le lien direct : https://www.freecodecamp.org/news/learn-python-free-python-courses-for-beginners/ |
+| Python for Everybody (Programming for Everybody) | freeCodeCamp.org / Dr Chuck (Univ. of Michigan) | ~13h40                                      | Débutant à intermédiaire | Programmation, structures de données, bases de données avec Python | https://www.freecodecamp.org/news/python-for-everybody/                                                                                    |
+| Formation Python – Machine Learning (série)      | MachineLearnia (Guillaume Saint-Cirgue)         | Série de vidéos courtes (10–20 min chacune) | Débutant à intermédiaire | Python, NumPy, structures de données, en français                  | Chaîne à rechercher sur YouTube : « MachineLearnia »                                                                                       |
 
 **Cours interactifs**
 
@@ -390,10 +379,10 @@ Chaque ressource ci-dessous est directement rattachée à une étape de la roadm
 
 **Vidéos**
 
-|Titre|Chaîne|Durée approx.|Niveau|Contenu|Lien|
-|---|---|---|---|---|---|
-|SQL for Beginners / Data Analyst Bootcamp|Alex The Analyst|Série (plusieurs heures au total)|Débutant à avancé|SELECT, WHERE, GROUP BY, jointures, sous-requêtes, procédures stockées|https://www.youtube.com/playlist?list=PLUaB-1hjhk8FE_XZ87vPPSfHqb6OcM0cF|
-|SQL Tutorial – Full Database Course for Beginners|freeCodeCamp.org|~4h20|Débutant|Introduction complète au SQL et aux bases de données relationnelles|Rechercher sur la chaîne YouTube freeCodeCamp.org (titre exact ci-dessus)|
+| Titre                                             | Chaîne           | Durée approx.                     | Niveau            | Contenu                                                                | Lien                                                                      |
+| ------------------------------------------------- | ---------------- | --------------------------------- | ----------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| SQL for Beginners / Data Analyst Bootcamp         | Alex The Analyst | Série (plusieurs heures au total) | Débutant à avancé | SELECT, WHERE, GROUP BY, jointures, sous-requêtes, procédures stockées | https://www.youtube.com/playlist?list=PLUaB-1hjhk8FE_XZ87vPPSfHqb6OcM0cF  |
+| SQL Tutorial – Full Database Course for Beginners | freeCodeCamp.org | ~4h20                             | Débutant          | Introduction complète au SQL et aux bases de données relationnelles    | Rechercher sur la chaîne YouTube freeCodeCamp.org (titre exact ci-dessus) |
 
 **Cours interactifs**
 
@@ -407,10 +396,10 @@ Chaque ressource ci-dessous est directement rattachée à une étape de la roadm
 
 **Vidéos**
 
-|Titre|Chaîne|Durée approx.|Niveau|Contenu|Lien|
-|---|---|---|---|---|---|
-|StatQuest: Statistics Fundamentals|StatQuest with Josh Starmer|Série d'environ 8h au total|Débutant à intermédiaire|Distributions, échantillonnage, tests d'hypothèses, p-value, corrélation, régression|Syllabus complet et accès aux vidéos : https://classcentral.com/course/youtube-statistics-fundamentals-45654|
-|StatQuest (série Machine Learning et stats appliquées)|StatQuest with Josh Starmer|Série (nombreuses vidéos courtes)|Intermédiaire à avancé|PCA, régression logistique, arbres de décision, ROC/AUC|Syllabus complet : https://classcentral.com/classroom/youtube-statquest-90294|
+| Titre                                                  | Chaîne                      | Durée approx.                     | Niveau                   | Contenu                                                                              | Lien                                                                                                         |
+| ------------------------------------------------------ | --------------------------- | --------------------------------- | ------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
+| StatQuest: Statistics Fundamentals                     | StatQuest with Josh Starmer | Série d'environ 8h au total       | Débutant à intermédiaire | Distributions, échantillonnage, tests d'hypothèses, p-value, corrélation, régression | Syllabus complet et accès aux vidéos : https://classcentral.com/course/youtube-statistics-fundamentals-45654 |
+| StatQuest (série Machine Learning et stats appliquées) | StatQuest with Josh Starmer | Série (nombreuses vidéos courtes) | Intermédiaire à avancé   | PCA, régression logistique, arbres de décision, ROC/AUC                              | Syllabus complet : https://classcentral.com/classroom/youtube-statquest-90294                                |
 
 **Complément mathématique** : pour l'intuition sur l'algèbre linéaire et les probabilités (utile pour comprendre le fond des méthodes statistiques), la chaîne 3Blue1Brown propose des séries reconnues (« Essence of Linear Algebra », « Essence of Calculus ») — rechercher directement sur YouTube, la chaîne étant très largement documentée et citée par la communauté scientifique.
 
@@ -418,10 +407,10 @@ Chaque ressource ci-dessous est directement rattachée à une étape de la roadm
 
 **Vidéos**
 
-|Titre|Chaîne|Durée approx.|Niveau|Contenu|Lien|
-|---|---|---|---|---|---|
-|Python Pandas Tutorial (série complète)|Corey Schafer|Série de ~11 vidéos, 15–35 min chacune|Débutant à avancé|DataFrames, indexation, filtrage, groupby, nettoyage, dates, import/export|https://www.youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS|
-|Data Analysis with Python Course – NumPy, Pandas, Data Visualization|freeCodeCamp.org|~9h56|Débutant à intermédiaire|NumPy, Pandas, visualisation, projet fil rouge|Rechercher sur la chaîne YouTube freeCodeCamp.org|
+| Titre                                                                | Chaîne           | Durée approx.                          | Niveau                   | Contenu                                                                    | Lien                                                                     |
+| -------------------------------------------------------------------- | ---------------- | -------------------------------------- | ------------------------ | -------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| Python Pandas Tutorial (série complète)                              | Corey Schafer    | Série de ~11 vidéos, 15–35 min chacune | Débutant à avancé        | DataFrames, indexation, filtrage, groupby, nettoyage, dates, import/export | https://www.youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS |
+| Data Analysis with Python Course – NumPy, Pandas, Data Visualization | freeCodeCamp.org | ~9h56                                  | Débutant à intermédiaire | NumPy, Pandas, visualisation, projet fil rouge                             | Rechercher sur la chaîne YouTube freeCodeCamp.org                        |
 
 Le code associé à la série de Corey Schafer est disponible ici : https://github.com/CoreyMSchafer/code_snippets/tree/master/Python/Pandas
 
@@ -463,10 +452,10 @@ Le code associé à la série de Corey Schafer est disponible ici : https://gith
 
 **Vidéos**
 
-|Titre|Chaîne|Durée approx.|Niveau|Contenu|Lien|
-|---|---|---|---|---|---|
-|Git and GitHub for Beginners – Crash Course|freeCodeCamp.org|~1h08|Débutant|Concepts de base, commandes essentielles, workflow GitHub|Article avec lien direct : https://www.freecodecamp.org/news/git-and-github-crash-course-for-beginners/|
-|Learn Git – Full Course for Beginners|freeCodeCamp.org|~4h|Débutant à intermédiaire|Approfondissement : branches, merge, rebase, contribution open source|Article avec lien direct : https://www.freecodecamp.org/news/learn-git-in-detail-to-manage-your-code/|
+| Titre                                       | Chaîne           | Durée approx. | Niveau                   | Contenu                                                               | Lien                                                                                                    |
+| ------------------------------------------- | ---------------- | ------------- | ------------------------ | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| Git and GitHub for Beginners – Crash Course | freeCodeCamp.org | ~1h08         | Débutant                 | Concepts de base, commandes essentielles, workflow GitHub             | Article avec lien direct : https://www.freecodecamp.org/news/git-and-github-crash-course-for-beginners/ |
+| Learn Git – Full Course for Beginners       | freeCodeCamp.org | ~4h           | Débutant à intermédiaire | Approfondissement : branches, merge, rebase, contribution open source | Article avec lien direct : https://www.freecodecamp.org/news/learn-git-in-detail-to-manage-your-code/   |
 
 **Documentation officielle**
 
@@ -684,11 +673,11 @@ Cette roadmap est pensée pour un étudiant en MPI poursuivant sa prépa en para
 
 ### Adaptation selon le temps disponible
 
-|Rythme|3 mois|6 mois|12 mois|
-|---|---|---|---|
-|3 h/semaine|Python + SQL niveaux 1-2|+ Pandas, stats descriptives|Portfolio partiel (2-3 projets), bases Power BI|
-|5 h/semaine|Python + SQL complet + stats descriptives|+ Pandas, Data Cleaning/Viz, Projets 1-3|Portfolio complet (4-5 projets), Power BI, notions ML|
-|10 h/semaine|Fondamentaux complets + Projets 1-2|Projets 1-5, stats inférentielles, Power BI|Portfolio complet + Projet 6 + ML + préparation entretiens|
+| Rythme       | 3 mois                                    | 6 mois                                      | 12 mois                                                    |
+| ------------ | ----------------------------------------- | ------------------------------------------- | ---------------------------------------------------------- |
+| 3 h/semaine  | Python + SQL niveaux 1-2                  | + Pandas, stats descriptives                | Portfolio partiel (2-3 projets), bases Power BI            |
+| 5 h/semaine  | Python + SQL complet + stats descriptives | + Pandas, Data Cleaning/Viz, Projets 1-3    | Portfolio complet (4-5 projets), Power BI, notions ML      |
+| 10 h/semaine | Fondamentaux complets + Projets 1-2       | Projets 1-5, stats inférentielles, Power BI | Portfolio complet + Projet 6 + ML + préparation entretiens |
 
 Le rythme 3–5 h/semaine est réaliste en parallèle d'une prépa MPI ; le rythme 10 h/semaine est plutôt adapté aux vacances scolaires ou à une période post-prépa.
 
