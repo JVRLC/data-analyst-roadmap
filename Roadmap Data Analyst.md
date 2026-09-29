@@ -1,6 +1,4 @@
-# Roadmap Data Analyst de 1ère année MPI (Mathématiques Physique et Informatique) au métier de la Data
-
-> Feuille de route personnelle et progressive pour un étudiant en MPI souhaitant devenir Data Analyst, avec une trajectoire ouverte vers Data Scientist, Data Engineer ou BI Analyst.
+> <span style="color:green"> Feuille de route progressive pour un étudiant en MPI souhaitant devenir Data Analyst, avec une trajectoire ouverte vers Data Scientist, Data Engineer ou BI Analyst.</span>
 
 ## Sommaire
 
@@ -17,8 +15,6 @@
 11. [Préparation au stage](#11-pr%C3%A9paration-au-stage)
 12. [Checklist finale](#12-checklist-finale)
 13. [Par où commencer aujourd'hui ?](#13-par-o%C3%B9-commencer-aujourdhui-)
-
----
 
 ## 1. Introduction
 
@@ -40,7 +36,7 @@ Contrairement au Data Scientist, le Data Analyst se concentre sur la compréhens
 
 ### Pourquoi un profil MPI est pertinent
 
-La prépa MPI développe des compétences directement réutilisables dans la Data :
+La MPI développe des compétences directement réutilisables dans la Data :
 
 - **rigueur mathématique** : probabilités, algèbre linéaire, statistiques — le socle théorique de toute l'analyse de données ;
 - **capacité d'abstraction et de modélisation** : essentielle pour formuler un problème métier en problème de données ;
@@ -49,7 +45,7 @@ La prépa MPI développe des compétences directement réutilisables dans la Dat
 
 ### Ce qui manque et doit être acquis
 
-La prépa ne couvre pas, ou très peu :
+La MPI ne couvre pas, ou très peu :
 
 - les outils du métier (SQL, Pandas, Power BI, Git) ;
 - la statistique appliquée et interprétative (au-delà du formalisme mathématique : p-value, intervalle de confiance, choix de test) ;
@@ -58,8 +54,6 @@ La prépa ne couvre pas, ou très peu :
 - la culture du monde de l'entreprise et de la donnée (dashboard, reporting, KPI).
 
 Cette roadmap comble précisément cet écart.
-
----
 
 ## 2. Les métiers de la Data
 
@@ -131,8 +125,6 @@ Il n'existe pas de « meilleur » métier de la Data : chacun correspond à un t
 - **Exemple de problème traité** : « Concevoir un test A/B statistiquement valide pour mesurer l'effet d'une nouvelle interface. »
 - **Profil correspondant** : personnes attirées par la théorie statistique et la rigueur mathématique, proches de la recherche.
 
----
-
 ## 3. Objectif : devenir Data Analyst
 
 ### Ce qu'un Data Analyst doit savoir faire, concrètement
@@ -149,51 +141,9 @@ Il n'existe pas de « meilleur » métier de la Data : chacun correspond à un t
 - Interpréter les résultats avec prudence (corrélation ≠ causalité, biais d'échantillonnage).
 - Présenter des conclusions à un public non technique, avec une recommandation actionnable.
 
-### Le workflow professionnel du Data Analyst
-
-```text
-Problème métier
-↓
-Collecte des données
-↓
-Compréhension des données
-↓
-Nettoyage
-↓
-SQL
-↓
-Analyse statistique
-↓
-Python
-↓
-Visualisation
-↓
-Dashboard
-↓
-Interprétation
-↓
-Présentation des résultats
-```
-
-**Exemple filé : baisse du taux de conversion e-commerce**
-
-1. **Problème métier** : le service marketing constate une baisse des ventes en ligne et veut en comprendre la cause.
-2. **Collecte des données** : extraction des logs de connexion, des commandes, des données de trafic publicitaire depuis la base SQL de production.
-3. **Compréhension des données** : identifier les tables disponibles (utilisateurs, sessions, commandes), leurs relations (clés primaires/étrangères), leur fraîcheur.
-4. **Nettoyage** : retirer les sessions de robots, corriger les doublons de commandes, traiter les valeurs de montant négatives (remboursements).
-5. **SQL** : requêtes agrégées pour calculer le taux de conversion par jour, par canal d'acquisition, par device.
-6. **Analyse statistique** : comparer les taux de conversion mobile vs desktop, tester si l'écart est significatif ou dû au hasard.
-7. **Python** : croiser plusieurs sources (SQL + fichier CSV de campagnes publicitaires) que SQL seul gère mal.
-8. **Visualisation** : graphique en courbes de l'évolution du taux de conversion sur 3 mois, segmenté par canal.
-9. **Dashboard** : intégration dans un dashboard Power BI suivi par l'équipe marketing chaque semaine.
-10. **Interprétation** : la baisse est concentrée sur le mobile depuis une mise à jour du site — hypothèse de bug d'ergonomie plutôt que de baisse de la demande.
-11. **Présentation** : synthèse en 3 diapositives avec recommandation (auditer le parcours mobile) pour le comité marketing.
-
----
-
 ## 4. Roadmap des compétences
 
-L'ordre proposé est pensé pour donner rapidement des résultats concrets tout en construisant les fondations correctement.
+Selon [Roadmap.sh](https://en.wikipedia.org/wiki/Technology_roadmap), Pour un Data Analyst, il faut ces compétences [Roadmap Data Analyst](https://roadmap.sh/data-analyst) ça vaut peut-être le coup d'y jetter un coup d'oeil. Dans ce document, je propose de manière simplifiée le roadmap ci-dessous. L'ordre proposé est pensé pour donner rapidement des résultats concrets tout en construisant les fondations correctement.
 
 ### 4.1 Python
 
@@ -351,25 +301,23 @@ L'ordre proposé est pensé pour donner rapidement des résultats concrets tout 
 
 **Ce qui est secondaire au démarrage** : orchestration avancée (Airflow), architecture Big Data (Spark, Kafka) — à explorer après une base solide en Data Analyst.
 
----
-
 ## 5. Ressources d'apprentissage
 
-Chaque ressource ci-dessous est directement rattachée à une étape de la roadmap de la section 4. Les ressources ont été vérifiées ; seules celles dont l'existence a pu être confirmée sont incluses.
+Chaque ressource ci-dessous est rattachée à une étape de la roadmap de la section 4. La mention **(recommandée)** désigne la meilleure ressource par étape si l'on n'en choisit qu'une seule. La mention _(lien à vérifier)_ signale une ressource très connue dont le lien doit être ouvert pour confirmation avant usage.
 
 ### 5.1 Python
 
 **Vidéos**
 
-| Titre                                            | Chaîne                                          | Durée approx.                               | Niveau                   | Contenu                                                            | Lien                                                                                                                                       |
-| ------------------------------------------------ | ----------------------------------------------- | ------------------------------------------- | ------------------------ | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| Learn Python – Full Course for Beginners         | freeCodeCamp.org                                | ~4h30                                       | Débutant                 | Bases complètes du langage avec mini-projets                       | Voir l'article freeCodeCamp qui héberge le lien direct : https://www.freecodecamp.org/news/learn-python-free-python-courses-for-beginners/ |
-| Python for Everybody (Programming for Everybody) | freeCodeCamp.org / Dr Chuck (Univ. of Michigan) | ~13h40                                      | Débutant à intermédiaire | Programmation, structures de données, bases de données avec Python | https://www.freecodecamp.org/news/python-for-everybody/                                                                                    |
-| Formation Python – Machine Learning (série)      | MachineLearnia (Guillaume Saint-Cirgue)         | Série de vidéos courtes (10–20 min chacune) | Débutant à intermédiaire | Python, NumPy, structures de données, en français                  | Chaîne à rechercher sur YouTube : « MachineLearnia »                                                                                       |
+- **Learn Python – Full Course for Beginners** (recommandée) — freeCodeCamp.org, ~4h30, débutant. Bases complètes du langage avec mini-projets. Lien direct via l'article : https://www.freecodecamp.org/news/learn-python-free-python-courses-for-beginners/
+- **Python for Everybody** — freeCodeCamp.org / Dr Chuck (Univ. of Michigan), ~13h40, débutant à intermédiaire. Programmation, structures de données, bases de données avec Python : https://www.freecodecamp.org/news/python-for-everybody/
+- **Formation Python – Machine Learning** — MachineLearnia (Guillaume Saint-Cirgue), série de vidéos de 10 à 20 min, en français. Python, NumPy, structures de données. À rechercher sur YouTube : « MachineLearnia ».
+- **Data Analysis with Python for Excel Users** — freeCodeCamp.org (Frank Andrade), ~4h, débutant. Anaconda/Jupyter, bases Python, Pandas, tableaux croisés, graphiques : https://www.freecodecamp.org/news/data-analysis-with-python-for-excel-users-course/
 
 **Cours interactifs**
 
-- **Kaggle Learn – Python** : https://www.kaggle.com/learn — niveau débutant, quelques heures, bases du langage orientées data (variables, fonctions, listes, bibliothèques externes).
+- **Kaggle Learn – Python** : https://www.kaggle.com/learn/python — bases du langage orientées data, quelques heures _(lien à vérifier)_.
+- **Kaggle Learn – Intro to Programming** : https://www.kaggle.com/learn — pour qui n'a jamais programmé en dehors du cours d'informatique de MPI.
 
 **Documentation officielle**
 
@@ -379,45 +327,53 @@ Chaque ressource ci-dessous est directement rattachée à une étape de la roadm
 
 **Vidéos**
 
-| Titre                                             | Chaîne           | Durée approx.                     | Niveau            | Contenu                                                                | Lien                                                                      |
-| ------------------------------------------------- | ---------------- | --------------------------------- | ----------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| SQL for Beginners / Data Analyst Bootcamp         | Alex The Analyst | Série (plusieurs heures au total) | Débutant à avancé | SELECT, WHERE, GROUP BY, jointures, sous-requêtes, procédures stockées | https://www.youtube.com/playlist?list=PLUaB-1hjhk8FE_XZ87vPPSfHqb6OcM0cF  |
-| SQL Tutorial – Full Database Course for Beginners | freeCodeCamp.org | ~4h20                             | Débutant          | Introduction complète au SQL et aux bases de données relationnelles    | Rechercher sur la chaîne YouTube freeCodeCamp.org (titre exact ci-dessus) |
+- **SQL for Beginners / Data Analyst Bootcamp** (recommandée) — Alex The Analyst, série de plusieurs heures, débutant à avancé. SELECT, WHERE, GROUP BY, jointures, sous-requêtes, procédures stockées : https://www.youtube.com/playlist?list=PLUaB-1hjhk8FE_XZ87vPPSfHqb6OcM0cF
+- **SQL Tutorial – Full Database Course for Beginners** — freeCodeCamp.org, ~4h20, débutant. Introduction complète au SQL et aux bases relationnelles. À rechercher sur la chaîne YouTube freeCodeCamp.org.
 
 **Cours interactifs**
 
-- **SQLBolt** : https://sqlbolt.com — interactif, gratuit, sans compte requis ; couvre SELECT, filtres, jointures, sous-requêtes, jusqu'à des notions de DDL.
-- **Kaggle Learn – Intro to SQL / Advanced SQL** : https://www.kaggle.com/learn — requêtes de base puis JOIN, sous-requêtes analytiques, fonctions de fenêtrage.
-- **SQLZoo** : plateforme interactive complémentaire, notamment pour les jointures et les requêtes imbriquées.
+- **SQLBolt** : https://sqlbolt.com — gratuit, sans compte ; SELECT, filtres, jointures, sous-requêtes, notions de DDL.
+- **Kaggle Learn – Intro to SQL** : https://www.kaggle.com/learn/intro-to-sql _(lien à vérifier)_
+- **Kaggle Learn – Advanced SQL** : https://www.kaggle.com/learn/advanced-sql — JOIN, sous-requêtes analytiques, fonctions de fenêtrage _(lien à vérifier)_
+- **SQLZoo** : https://sqlzoo.net — jointures et requêtes imbriquées _(lien à vérifier)_
+- **PostgreSQL Exercises** : https://pgexercises.com — exercices progressifs, utiles avant les entretiens _(lien à vérifier)_
 
-**Documentation officielle** : selon le SGBD utilisé (PostgreSQL, MySQL) ; privilégier la documentation officielle du moteur choisi pour l'entraînement (PostgreSQL est recommandé pour son respect du standard SQL).
+**Documentation officielle**
+
+- Selon le SGBD utilisé (PostgreSQL, MySQL) ; PostgreSQL est recommandé pour son respect du standard SQL.
 
 ### 5.3 Statistiques et probabilités
 
 **Vidéos**
 
-| Titre                                                  | Chaîne                      | Durée approx.                     | Niveau                   | Contenu                                                                              | Lien                                                                                                         |
-| ------------------------------------------------------ | --------------------------- | --------------------------------- | ------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
-| StatQuest: Statistics Fundamentals                     | StatQuest with Josh Starmer | Série d'environ 8h au total       | Débutant à intermédiaire | Distributions, échantillonnage, tests d'hypothèses, p-value, corrélation, régression | Syllabus complet et accès aux vidéos : https://classcentral.com/course/youtube-statistics-fundamentals-45654 |
-| StatQuest (série Machine Learning et stats appliquées) | StatQuest with Josh Starmer | Série (nombreuses vidéos courtes) | Intermédiaire à avancé   | PCA, régression logistique, arbres de décision, ROC/AUC                              | Syllabus complet : https://classcentral.com/classroom/youtube-statquest-90294                                |
+- **StatQuest: Statistics Fundamentals** (recommandée) — StatQuest with Josh Starmer, ~8h, débutant à intermédiaire. Distributions, échantillonnage, tests d'hypothèses, p-value, corrélation, régression : https://classcentral.com/course/youtube-statistics-fundamentals-45654
+- **StatQuest, série Machine Learning et stats appliquées** — intermédiaire à avancé. PCA, régression logistique, arbres de décision, ROC/AUC : https://classcentral.com/classroom/youtube-statquest-90294
+- **Introductory statistics** — Jeremy Balka (Univ. of Guelph), série de vidéos courtes, débutant. À rechercher sur YouTube : « Jeremy Balka ».
 
-**Complément mathématique** : pour l'intuition sur l'algèbre linéaire et les probabilités (utile pour comprendre le fond des méthodes statistiques), la chaîne 3Blue1Brown propose des séries reconnues (« Essence of Linear Algebra », « Essence of Calculus ») — rechercher directement sur YouTube, la chaîne étant très largement documentée et citée par la communauté scientifique.
+**Cours interactifs**
+
+- **Khan Academy – Statistics and probability** : https://fr.khanacademy.org/math/statistics-probability — vidéos et exercices corrigés, en français _(lien à vérifier)_.
+
+**Complément mathématique**
+
+- 3Blue1Brown : séries « Essence of Linear Algebra » et « Essence of Calculus », à rechercher directement sur YouTube.
 
 ### 5.4 Pandas / NumPy
 
 **Vidéos**
 
-| Titre                                                                | Chaîne           | Durée approx.                          | Niveau                   | Contenu                                                                    | Lien                                                                     |
-| -------------------------------------------------------------------- | ---------------- | -------------------------------------- | ------------------------ | -------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| Python Pandas Tutorial (série complète)                              | Corey Schafer    | Série de ~11 vidéos, 15–35 min chacune | Débutant à avancé        | DataFrames, indexation, filtrage, groupby, nettoyage, dates, import/export | https://www.youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS |
-| Data Analysis with Python Course – NumPy, Pandas, Data Visualization | freeCodeCamp.org | ~9h56                                  | Débutant à intermédiaire | NumPy, Pandas, visualisation, projet fil rouge                             | Rechercher sur la chaîne YouTube freeCodeCamp.org                        |
-
-Le code associé à la série de Corey Schafer est disponible ici : https://github.com/CoreyMSchafer/code_snippets/tree/master/Python/Pandas
+- **Python Pandas Tutorial** (recommandée) — Corey Schafer, ~11 vidéos de 15 à 35 min, débutant à avancé. DataFrames, indexation, filtrage, groupby, nettoyage, dates, import/export : https://www.youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS
+- **Data Analysis with Python Course – NumPy, Pandas, Data Visualization** — freeCodeCamp.org, ~9h56, débutant à intermédiaire. À rechercher sur la chaîne YouTube freeCodeCamp.org.
+- Code de la série de Corey Schafer : https://github.com/CoreyMSchafer/code_snippets/tree/master/Python/Pandas
 
 **Cours interactifs**
 
-- **Kaggle Learn – Pandas** : https://www.kaggle.com/learn/pandas — création/lecture, indexation, group by, types de données et valeurs manquantes, renommage/combinaison.
-- **Mini-cours Pandas (TU Delft)** : série de vidéos courtes et dépôt d'exercices, orientée bonnes pratiques d'écriture Pandas : https://github.com/junzis/course-pandas
+- **Kaggle Learn – Pandas** : https://www.kaggle.com/learn/pandas — lecture, indexation, group by, valeurs manquantes, renommage/combinaison.
+- **Mini-cours Pandas (TU Delft)** : https://github.com/junzis/course-pandas — vidéos courtes et exercices, bonnes pratiques d'écriture Pandas.
+
+**Livre gratuit en ligne**
+
+- **Python for Data Analysis** (Wes McKinney, créateur de Pandas) : https://wesmckinney.com/book/ _(lien à vérifier)_
 
 **Documentation officielle**
 
@@ -426,23 +382,58 @@ Le code associé à la série de Corey Schafer est disponible ici : https://gith
 
 ### 5.5 Data Cleaning
 
-- **Kaggle Learn – Data Cleaning** : https://www.kaggle.com/learn — valeurs manquantes, mise à l'échelle, parsing de dates, encodages de caractères, détection d'incohérences.
+**Cours interactifs**
+
+- **Kaggle Learn – Data Cleaning** (recommandée) : https://www.kaggle.com/learn/data-cleaning — valeurs manquantes, mise à l'échelle, parsing de dates, encodages, incohérences.
+
+**Documentation officielle**
+
+- Pandas, valeurs manquantes : https://pandas.pydata.org/docs/user_guide/missing_data.html _(lien à vérifier)_
+
+**Pratique**
+
+- Appliquer chaque notion sur un jeu de données réel et sale (section 7, projet 3), car les datasets d'exercice sont en général déjà propres.
 
 ### 5.6 Data Visualization
 
-- **Kaggle Learn – Data Visualization** : https://www.kaggle.com/learn — Seaborn, choix du graphique adapté, personnalisation.
-- Documentation Matplotlib et Seaborn : à consulter directement sur leurs sites officiels respectifs pour la syntaxe exacte des fonctions utilisées dans les projets.
+**Cours interactifs**
+
+- **Kaggle Learn – Data Visualization** (recommandée) : https://www.kaggle.com/learn/data-visualization — Seaborn, choix du graphique adapté, personnalisation.
+
+**Choix du graphique**
+
+- **From Data to Viz** : https://www.data-to-viz.com — arbre de décision selon le type de données _(lien à vérifier)_.
+
+**Documentation officielle**
+
+- Matplotlib : https://matplotlib.org/stable/
+- Seaborn : https://seaborn.pydata.org/tutorial.html _(lien à vérifier)_
 
 ### 5.7 Excel
 
-- Pas de ressource vidéo spécifique vérifiée à ce stade au-delà des chaînes généralistes ; privilégier le support officiel Microsoft (documentation Excel) et la pratique directe sur des tableaux de données réels (voir section Exercices).
+**Vidéos** (à rechercher sur YouTube avec le titre et la chaîne)
+
+- **Excel for Data Analytics – Full Course for Beginners** (recommandée) — Luke Barousse, ~11h, débutant à intermédiaire. Formules, tableaux croisés, graphiques, orienté analyse de données.
+- **Excel Data Analysis Full Course Tutorial** — Learnit Training, ~7h, débutant à intermédiaire. Analyse de données de bout en bout.
+- **Microsoft Excel for Beginners** — freeCodeCamp.org / Programming Professor, ~2h30, débutant. Formules, tableaux croisés, graphiques, à travers 5 mini-projets (paie, ventes, stock).
+- **Beginner to Pro FREE Excel Data Analysis Course** — Chandoo, ~50 min, débutant. Aperçu rapide des fonctions utiles à l'analyse.
+- **Chaîne Leila Gharani** : fonctions modernes (XLOOKUP, Power Query, tableaux croisés dynamiques).
+
+**Documentation officielle**
+
+- Support Microsoft Excel : https://support.microsoft.com/excel _(lien à vérifier)_
 
 ### 5.8 Power BI
 
+**Vidéos**
+
+- **Power BI for Data Analytics – Full Course for Beginners** — Luke Barousse, plusieurs heures, débutant. À rechercher sur YouTube avec le titre et la chaîne.
+
 **Cours interactifs (officiel)**
 
-- **Microsoft Learn – Get started with Microsoft data analytics** : https://learn.microsoft.com/training/paths/get-started-power-bi — gratuit, officiel, prépare à la certification Microsoft Certified: Data Analyst Associate (PL-300).
+- **Microsoft Learn – Get started with Microsoft data analytics** (recommandée) : https://learn.microsoft.com/training/paths/get-started-power-bi — gratuit, prépare à la certification Microsoft Certified: Data Analyst Associate (PL-300).
 - **Microsoft Learn – Data Analytics with Microsoft** (parcours plus large) : https://learn.microsoft.com/training/paths/data-analytics-microsoft
+- **DataCamp – Introduction to Power BI** : https://datacamp.com/courses/introduction-to-power-bi — ~4h, 39 exercices ; la gratuité a varié selon les pages consultées, à vérifier à l'inscription.
 
 **Documentation officielle**
 
@@ -452,18 +443,29 @@ Le code associé à la série de Corey Schafer est disponible ici : https://gith
 
 **Vidéos**
 
-| Titre                                       | Chaîne           | Durée approx. | Niveau                   | Contenu                                                               | Lien                                                                                                    |
-| ------------------------------------------- | ---------------- | ------------- | ------------------------ | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| Git and GitHub for Beginners – Crash Course | freeCodeCamp.org | ~1h08         | Débutant                 | Concepts de base, commandes essentielles, workflow GitHub             | Article avec lien direct : https://www.freecodecamp.org/news/git-and-github-crash-course-for-beginners/ |
-| Learn Git – Full Course for Beginners       | freeCodeCamp.org | ~4h           | Débutant à intermédiaire | Approfondissement : branches, merge, rebase, contribution open source | Article avec lien direct : https://www.freecodecamp.org/news/learn-git-in-detail-to-manage-your-code/   |
+- **Git and GitHub for Beginners – Crash Course** (recommandée) — freeCodeCamp.org, ~1h08, débutant. Concepts de base, commandes essentielles, workflow GitHub : https://www.freecodecamp.org/news/git-and-github-crash-course-for-beginners/
+- **Learn Git – Full Course for Beginners** — freeCodeCamp.org, ~4h, débutant à intermédiaire. Branches, merge, rebase, open source : https://www.freecodecamp.org/news/learn-git-in-detail-to-manage-your-code/
+
+**Cours interactifs**
+
+- **GitHub Skills** : https://skills.github.com — mini-cours pratiques directement dans un dépôt _(lien à vérifier)_.
 
 **Documentation officielle**
 
 - Git : https://git-scm.com/doc
+- Pro Git (livre gratuit, disponible en français) : https://git-scm.com/book _(lien à vérifier)_
 
 ### 5.10 Machine Learning (notions)
 
-- **Kaggle Learn – Intro to Machine Learning / Intermediate Machine Learning** : https://www.kaggle.com/learn — arbres de décision, forêts aléatoires, validation croisée, gestion des valeurs manquantes et variables catégorielles.
+**Cours interactifs**
+
+- **Kaggle Learn – Intro to Machine Learning / Intermediate Machine Learning** (recommandée) : https://www.kaggle.com/learn/intro-to-machine-learning — arbres de décision, forêts aléatoires, validation croisée, valeurs manquantes, variables catégorielles _(lien à vérifier)_.
+- **Kaggle Learn – Feature Engineering** : https://www.kaggle.com/learn — création et sélection de variables.
+- **Google – Machine Learning Crash Course** : https://developers.google.com/machine-learning/crash-course _(lien à vérifier)_
+
+**Vidéos**
+
+- Série StatQuest (section 5.3) et série MachineLearnia en français (section 5.1).
 
 **Documentation officielle**
 
@@ -472,14 +474,30 @@ Le code associé à la série de Corey Schafer est disponible ici : https://gith
 ### 5.11 Sources de données officielles (France et Sénégal)
 
 - **data.gouv.fr** (plateforme officielle de l'État français) : https://www.data.gouv.fr
-- **INSEE** (Institut national de la statistique et des études économiques, France) : https://www.insee.fr
-- **ANSD** (Agence Nationale de la Statistique et de la Démographie, Sénégal) : https://www.ansd.sn — publie ses données en open data (formats CSV, JSON, API), avec un score d'ouverture des données classé premier en Afrique par l'Open Data Inventory (ODIN) 2024. Source à privilégier pour des projets ancrés sur des problématiques sénégalaises (démographie, emploi, commerce extérieur, prix).
+- **INSEE** (France) : https://www.insee.fr
+- **ANSD** (Agence Nationale de la Statistique et de la Démographie, Sénégal) : https://www.ansd.sn — données en open data (CSV, JSON, API), classé premier en Afrique par l'Open Data Inventory (ODIN) 2024. Source à privilégier pour des projets sur des problématiques sénégalaises (démographie, emploi, commerce extérieur, prix).
+- **Banque mondiale – Open Data** : https://data.worldbank.org — indicateurs comparables entre pays _(lien à vérifier)_.
+- **Kaggle Datasets** : https://www.kaggle.com/datasets — jeux de données variés et notebooks d'autres analystes _(lien à vérifier)_.
 
-### 5.12 Certification complémentaire (optionnelle)
+### 5.12 Plateformes en français
 
-- **Google Data Analytics Professional Certificate** (sur Coursera) : programme de 8 cours couvrant les fondamentaux du Data Analyst (nettoyage, analyse, visualisation, SQL, R, Tableau), avec projet de synthèse (capstone). Payant par abonnement mensuel, mais une **aide financière** est proposée par Coursera pour les personnes ne pouvant pas payer, ce qui rend le parcours accessible gratuitement sous conditions. À considérer une fois les bases de cette roadmap acquises : le programme enseigne R plutôt que Python, il est donc complémentaire à cette roadmap plutôt qu'un point de départ. Cette certification peut avoir une valeur de crédibilité auprès de recruteurs qui ne connaissent pas encore un portfolio GitHub.
+- **Khan Academy (français)** : https://fr.khanacademy.org — statistiques et probabilités _(lien à vérifier)_.
+- **MachineLearnia** (YouTube) : Python, NumPy, Machine Learning.
+- **OpenClassrooms** : https://openclassrooms.com — parcours Data Analyst en français ; certains cours gratuits, parcours diplômants payants _(lien à vérifier)_.
+- **FUN MOOC** : https://www.fun-mooc.fr — MOOC universitaires francophones (Python, statistiques) _(lien à vérifier)_.
 
----
+### 5.13 Parcours minimal : une ressource par étape
+
+- **Python** : freeCodeCamp – Learn Python, puis Kaggle Python
+- **SQL** : SQLBolt, puis la playlist d'Alex The Analyst
+- **Statistiques** : StatQuest – Statistics Fundamentals
+- **Pandas / NumPy** : Corey Schafer, puis Kaggle Pandas
+- **Data Cleaning** : Kaggle Data Cleaning
+- **Data Visualization** : Kaggle Data Visualization
+- **Excel** : Luke Barousse – Excel for Data Analytics
+- **Power BI** : Microsoft Learn – Get started with data analytics
+- **Git / GitHub** : freeCodeCamp – Git and GitHub Crash Course
+- **Machine Learning** : Kaggle Intro to Machine Learning
 
 ## 6. Exercices
 
@@ -518,8 +536,6 @@ Pratiquer sur : le parcours Microsoft Learn officiel (lien section 5.8), en reco
 **Niveau 1** — régression linéaire simple **Niveau 2** — régression logistique, arbres de décision **Niveau 3** — validation croisée, gestion du sur-apprentissage **Niveau 4** — première compétition Kaggle (ex. Titanic — Machine Learning from Disaster)
 
 Pratiquer sur : Kaggle Learn – Intro to Machine Learning (https://www.kaggle.com/learn), puis la compétition Kaggle « Titanic ».
-
----
 
 ## 7. Projets
 
@@ -606,8 +622,6 @@ Power BI
 - **data.gouv.fr** : https://www.data.gouv.fr — données publiques françaises (transports, santé, environnement, économie).
 - **INSEE** : https://www.insee.fr — données statistiques officielles françaises (démographie, économie, emploi).
 
----
-
 ## 8. GitHub et portfolio
 
 ### Structure de repository recommandée
@@ -644,8 +658,6 @@ project/
 
 Un portfolio de 3 à 6 projets bien documentés, couvrant SQL, Python/Pandas, statistiques et Power BI, est largement suffisant pour candidater à un stage de Data Analyst.
 
----
-
 ## 9. Roadmap temporelle
 
 Cette roadmap est pensée pour un étudiant en MPI poursuivant sa prépa en parallèle : elle privilégie la régularité à l'intensité.
@@ -681,8 +693,6 @@ Cette roadmap est pensée pour un étudiant en MPI poursuivant sa prépa en para
 
 Le rythme 3–5 h/semaine est réaliste en parallèle d'une prépa MPI ; le rythme 10 h/semaine est plutôt adapté aux vacances scolaires ou à une période post-prépa.
 
----
-
 ## 10. Préparation aux études après la MPI
 
 Il n'existe pas de voie unique ni de « meilleure école » : le choix dépend du niveau de spécialisation souhaité, du type de mathématiques/informatique que l'on veut approfondir, et de contraintes concrètes (coût, bourses, mobilité). Pour un étudiant en MPI au Sénégal, deux grandes directions coexistent et ne s'excluent pas : rester dans le système des concours français, ou rejoindre une école régionale spécialisée.
@@ -691,11 +701,12 @@ Il n'existe pas de voie unique ni de « meilleure école » : le choix dépend d
 
 Les CPGE scientifiques suivant le programme français (y compris celles hébergées au Sénégal, à l'École Polytechnique de Thiès) donnent accès aux mêmes concours communs qu'en France :
 
-- **Concours communs** : CCINP, Mines-Ponts, Centrale-Supélec, X-ENS, Concours Avenir Prépas, Ingeni'Up, selon la filière et le niveau visé, avec ensuite une spécialisation possible en 3ᵉ année vers la data, la statistique ou l'informatique.
-- **Écoles spécialisées en statistique et data** en France (ENSAE Paris, ENSAI, etc.), accessibles selon les concours et banques d'épreuves concernées.
-- **Parcours universitaires français** (L3 informatique ou mathématiques appliquées, puis master orienté data science, statistique ou intelligence artificielle).
-
-Les élèves des CPGE sénégalaises passent déjà ces concours français directement depuis le Sénégal ; les bourses d'excellence du gouvernement sénégalais permettent aussi, pour certains profils, une prépa directement en France (accords avec des lycées comme Louis-le-Grand, Henri IV ou le Lycée du Parc).
+- Très sélectif
+  - **Concours communs** : CCINP, Mines-Ponts, Centrale-Supélec, X-ENS, Concours Avenir Prépas, Ingeni'Up, selon la filière et le niveau visé, avec ensuite une spécialisation possible en 3ᵉ année vers la data, la statistique ou l'informatique.
+  - **Écoles spécialisées en statistique et data** en France (ENSAE Paris, ENSAI, etc.), accessibles selon les concours et banques d'épreuves concernées.
+- Plus accessible
+  - **Parcours universitaires français** (L3 informatique ou mathématiques appliquées, puis master orienté data science, statistique ou intelligence artificielle).
+  - **BUT** SD ou informatique
 
 ### Voie 2 — Écoles régionales spécialisées (Sénégal et Afrique de l'Ouest)
 
@@ -703,8 +714,6 @@ Les élèves des CPGE sénégalaises passent déjà ces concours français direc
 - **École Supérieure Polytechnique (ESP), Université Cheikh Anta Diop de Dakar** : grande école d'ingénieurs publique sénégalaise, avec des filières informatique/télécoms pouvant mener vers la data.
 - **École Polytechnique de Thiès (EPT)** : école d'ingénieurs qui héberge également les CPGE sénégalaises, avec des filières informatique et génie logiciel.
 - **Parcours universitaires sénégalais** : UCAD (Université Cheikh Anta Diop) et Université Virtuelle du Sénégal (UVS) proposent des filières informatique et mathématiques appliquées, y compris à distance pour l'UVS.
-
-Ces écoles régionales ne s'opposent pas à la voie française : elles constituent une option de repli solide, moins coûteuse et sans contrainte de mobilité, en cas de non-admission aux concours français ou de choix délibéré de rester dans la sous-région.
 
 ### Critères à examiner pour choisir une formation (plutôt qu'un classement)
 
@@ -727,8 +736,6 @@ Ces informations évoluant chaque année (places disponibles, épreuves, spécia
 ### Le marché de l'emploi Data au Sénégal et à l'international
 
 Le secteur data se développe fortement à Dakar, porté notamment par les banques (reporting réglementaire), les télécoms et les scaleups technologiques (fintech, e-commerce), ce qui crée une demande locale réelle pour des profils Data Analyst. En parallèle, les compétences de cette roadmap (SQL, Python, Power BI) sont directement valorisables sur des missions à distance pour des entreprises étrangères, via des plateformes de freelancing internationales. Les chiffres précis de salaires évoluant vite et variant fortement selon les sources, il est préférable de les vérifier directement lors des entretiens ou auprès de plateformes d'emploi reconnues plutôt que de se fier à des grilles trouvées en ligne.
-
----
 
 ## 11. Préparation au stage
 
@@ -771,8 +778,6 @@ Comment choisir le bon type de graphique pour un message donné ?
 - **Kaggle Learn – Advanced SQL** (https://www.kaggle.com/learn) pour retravailler les requêtes de type entretien (top N par groupe, window functions).
 - Reprendre la série **StatQuest** (section 5.3) pour être capable d'expliquer p-value, corrélation, et tests d'hypothèses avec ses propres mots, sans réciter une formule.
 - Préparer 2 à 3 projets de son portfolio pour pouvoir les présenter oralement en 2 minutes chacun (problème → méthode → résultat → limite).
-
----
 
 ## 12. Checklist finale
 
